@@ -35,6 +35,6 @@ class WeatherService
             'city' => $location,
             'temperature' => $tempInCelsius ?? null,
             'description' => $data['currentConditions']['conditions'] ?? null
-        ];;
+        ];
     }
 }
